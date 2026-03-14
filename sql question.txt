@@ -1,0 +1,169 @@
+﻿Good 👍 I’ll do two things:
+
+1️⃣ **Display the full Students table (20 entries)**
+2️⃣ **Frame more DML practice questions (easy → medium → difficult)**
+
+---
+
+# 📊 📘 Students Table (20 Records)
+
+| student_id | student_name | branch | age | marks | city      |
+| ---------- | ------------ | ------ | --- | ----- | --------- |
+| 1          | Nithin       | CSE    | 20  | 85.50 | Mysore    |
+| 2          | Rahul        | ISE    | 21  | 78.00 | Bangalore |
+| 3          | Anjali       | ECE    | 19  | 92.40 | Mangalore |
+| 4          | Kiran        | CSE    | 22  | 67.80 | Mysore    |
+| 5          | Sneha        | EEE    | 20  | 88.60 | Hubli     |
+| 6          | Arjun        | MECH   | 23  | 74.20 | Belgaum   |
+| 7          | Pooja        | CSE    | 21  | 81.75 | Bangalore |
+| 8          | Rakesh       | ISE    | 20  | 69.30 | Mysore    |
+| 9          | Divya        | ECE    | 19  | 95.10 | Mangalore |
+| 10         | Manoj        | EEE    | 22  | 72.00 | Hubli     |
+| 11         | Sanjay       | CSE    | 20  | 84.25 | Bangalore |
+| 12         | Kavya        | ISE    | 21  | 79.60 | Mysore    |
+| 13         | Vikram       | MECH   | 23  | 66.45 | Belgaum   |
+| 14         | Asha         | ECE    | 20  | 90.00 | Mangalore |
+| 15         | Rohit        | CSE    | 22  | 73.55 | Bangalore |
+| 16         | Meena        | EEE    | 19  | 87.90 | Hubli     |
+| 17         | Tarun        | ISE    | 21  | 70.80 | Mysore    |
+| 18         | Neha         | CSE    | 20  | 91.35 | Bangalore |
+| 19         | Varun        | MECH   | 22  | 68.50 | Belgaum   |
+| 20         | Ishita       | ECE    | 19  | 93.75 | Mangalore |
+
+---
+
+# 📝 More Practice Questions (DML Based)
+
+## 🔹 Level 1 – Basic
+
+1. Display students whose age is 20.
+2. Show students from Bangalore.
+3. Display names and marks of all ECE students.
+4. Update city of student_id = 6 to "Mysore".
+5. Delete students from MECH branch.
+
+---
+
+## 🔹 Level 2 – Intermediate
+
+6. Display students with marks between 80 and 90.
+7. Show students whose name starts with 'A'.
+8. Increase marks by 3 for all CSE students.
+9. Delete students older than 22.
+10. Display top 5 students based on marks.
+
+---
+
+## 🔹 Level 3 – Advanced (Use AND, OR, IN, LIKE)
+
+11. Show students from Mysore AND marks > 75.
+12. Display students from CSE OR ECE branch.
+13. Show students whose name ends with 'a'.
+14. Update marks to 60 for students who scored below 70.
+15. Delete students whose city is NOT Bangalore.
+
+---
+
+## 🔹 Challenge Questions (Exam Type)
+
+16. Find average marks of each branch.
+17. Count number of students in each city.
+18. Display branch with highest average marks.
+19. Show second highest marks in the table.
+20. Find total students whose marks are above average.
+
+---
+
+If you want 👇
+
+* I can give answers
+* I can make a model university 10-mark question
+* I can create another table like Employee with salary examples
+* I can give tricky SQL errors practice
+
+Tell me what level you want next 😎0.9164
+
+
+
+
+
+
+Good 👍 I will make **separate questions** for each clause:
+
+* ✅ WHERE
+* ✅ ORDER BY
+* ✅ GROUP BY
+* ✅ HAVING
+
+Using the same **Students table (20 records)**.
+
+---
+
+# 🔵 1️⃣ WHERE Clause – 10 Questions
+
+1. Display students whose branch is 'CSE'.
+2. Show students who scored more than 85 marks.
+3. Display students from Mysore.
+4. Show students whose age is greater than 21.
+5. Display students whose marks are less than 70.
+6. Show students from CSE and city = Bangalore.
+7. Display students from ECE or EEE branch.
+8. Show students whose name starts with 'N'.
+9. Display students whose marks are between 80 and 90.
+10. Show students whose city is not Bangalore.
+
+---
+
+# 🟢 2️⃣ ORDER BY Clause – 10 Questions
+
+1. Display all students ordered by marks (ascending).
+2. Show students ordered by marks (descending).
+3. Display students ordered by age.
+4. Show students ordered by branch (A–Z).
+5. Display students ordered by city (Z–A).
+6. Show students ordered by marks descending and age ascending.
+7. Display top 5 highest scoring students.
+8. Show youngest students first.
+9. Display students ordered by student_name alphabetically.
+10. Show students ordered by branch and then by marks descending.
+
+---
+
+# 🟡 3️⃣ GROUP BY Clause – 10 Questions
+
+1. Count total students in each branch.
+2. Find average marks of each branch.
+3. Find maximum marks in each branch.
+4. Find minimum marks in each branch.
+5. Count students in each city.
+6. Find total marks of students in each branch.
+7. Count students based on age.
+8. Find average age in each branch.
+9. Find total number of students in each city.
+10. Find highest marks in each city.
+
+---
+
+# 🔴 4️⃣ HAVING Clause – 10 Questions
+
+1. Display branches having more than 3 students.
+2. Show branches whose average marks is greater than 80.
+3. Display cities having more than 2 students.
+4. Show branches where maximum marks is above 90.
+5. Display branches having minimum marks below 70.
+6. Show cities where average marks is above 85.
+7. Display age groups having more than 2 students.
+8. Show branches whose total marks is greater than 400.
+9. Display cities having at least 3 students.
+10. Show branches whose average age is greater than 21.
+
+---
+
+If you want next 👇
+
+* I can give answers for all 40 queries
+* I can make a 20-mark university exam paper
+* I can mix WHERE + GROUP BY + HAVING tough problems
+* I can give tricky interview-level SQL questions
+
+Tell me your level 😎
