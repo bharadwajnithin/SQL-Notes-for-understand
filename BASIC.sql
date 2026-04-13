@@ -90,7 +90,7 @@ select marks ,avg(age) as avgage
 from students 
 group by marks 
 having avg(age) > 21;
-
+
 -- Count total number of students
 select count(*) as totalstudents 
 from students ;
@@ -113,3 +113,5 @@ from students ;
 
 -- Display table structure
 DESC students;
+
+

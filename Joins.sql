@@ -48,6 +48,11 @@ FROM students
 LEFT JOIN branch
 ON students.branch_id = branch.branch_id; 
 
+SELECT students.student_id,students.name, branch.branch_name
+FROM branch
+LEFT JOIN students
+ON students.branch_id = branch.branch_id; 
+
 
 #Right join 
 
