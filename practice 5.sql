@@ -103,3 +103,37 @@ order by age ;
 
 
 
+select* from students 
+order by name desc ;
+
+
+# Display enrollments ordered by marks (highest first).
+
+select *from enrollments 
+order by marks desc ;
+
+
+# Find total number of students.
+select count(*) from students ;
+
+# Find average age of students.
+ select avg(age) from students ;
+ # Find total marks scored by all students.
+  select sum(marks) from enrollments  ;
+  
+ 
+ 
+ 
+ # Count students in each branch.
+ 
+ select branch , count(name) from students 
+ group by branch ;
+ 
+ 
+select course_name from courses;
+
+ 
+ 
+
+
+
