@@ -130,10 +130,22 @@ select count(*) from students ;
  group by branch ;
  
  
-select course_name from courses;
+select course_name ,student_id as st 
+ from courses
+ group by course_name 
+ having st >2;
 
  
  
+
+
+# JOINS 
+select s.name, c.course_names
+from students s
+join courses c
+on 
+
+
 
 
 
