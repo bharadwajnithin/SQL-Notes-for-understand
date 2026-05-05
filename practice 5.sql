@@ -137,13 +137,12 @@ select course_name ,student_id as st
 
  
  
+ # joins 
+ 
+ 
 
 
-# JOINS 
-select s.name, c.course_names
-from students s
-join courses c
-on 
+
 
 
 
