@@ -44,12 +44,17 @@ INSERT INTO Marks VALUES
 
 select * from  students ;
 
-select  s.name ,m.marks 
+select  s.student_name ,m.marks 
 from Students s
 join Marks m
 on s.student_id =m.student_id ;
 
+select s.student_name,s.department,m.subject,m.marks
+from Students s
+join Marks m
+on s.student_id=m.student_id;
 
 
+DESC Students;
 
 
