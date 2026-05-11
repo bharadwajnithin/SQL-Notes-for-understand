@@ -43,16 +43,20 @@ INSERT INTO Marks VALUES
 (110, 10, 'Java', 95);
 
 select * from  students ;
-
+#
 select  s.student_name ,m.marks 
 from Students s
 join Marks m
 on s.student_id =m.student_id ;
-
+#
 select s.student_name,s.department,m.subject,m.marks
 from Students s
 join Marks m
 on s.student_id=m.student_id;
+
+#Show students who scored more than 85.
+select
+
 
 
 DESC Students;
