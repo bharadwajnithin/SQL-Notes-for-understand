@@ -55,7 +55,11 @@ join Marks m
 on s.student_id=m.student_id;
 
 #Show students who scored more than 85.
-select
+select s.student_name ,m.marks
+from students s
+join marks m
+on s.student_id=m.student_id
+where marks >85;
 
 
 
