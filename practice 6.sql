@@ -70,7 +70,16 @@ on s.student_id=m.student_id
 order by marks desc 
 limit 1;
 
-select s.students 
+
+# D isplay CSE students with their marks.
+select s.student_name ,s.department ,m.marks
+from Students s 
+join Marks m
+on s.student_id=m.student_id
+ where s.department ="CSE";
+ 
+ 
+ 
 DESC Students;
 
 
