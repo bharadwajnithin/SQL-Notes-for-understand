@@ -78,6 +78,14 @@ join Marks m
 on s.student_id=m.student_id
  where s.department ="CSE";
  
+ #Show all students who studied DBMS.
+ 
+ select s.student_name,m.subject
+ from students s
+ join marks m
+ on s.student_id=m.student_id
+ where m.subject="DBMS";
+ 
  
  
 DESC Students;
