@@ -62,7 +62,15 @@ on s.student_id=m.student_id
 where marks >85;
 
 
+# Find the student who scored the highest mark.
+select s.student_name
+from students s
+join marks m 
+on s.student_id=m.student_id
+order by marks desc 
+limit 1;
 
+select s.students 
 DESC Students;
 
 
