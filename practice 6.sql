@@ -86,6 +86,12 @@ on s.student_id=m.student_id
  on s.student_id=m.student_id
  where m.subject="DBMS";
  
+  select s.student_name,m.subject
+ from students s
+ join marks m
+ on s.student_id=m.student_id
+ where m.subject="JAVA";
+ 
  
  
 DESC Students;
