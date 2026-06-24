@@ -106,7 +106,12 @@ from employees
 group by department 
 having toemp>2;
 
+# Write a query to display departments whose average salary is greater than 55,000
 
+select department ,salary
+from employees 
+group  by  department 
+having salary >avg(salary);
 
 
 
