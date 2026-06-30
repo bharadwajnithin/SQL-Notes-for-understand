@@ -1,3 +1,8 @@
+# INSERT 
+# UPDATE 
+# DELETE 
+# SELECT
+
 CREATE DATABASE school_db;
 
 USE school_db;
