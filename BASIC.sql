@@ -5,7 +5,7 @@ use student;
 show tables;
 
 -- Display all records from students table
-select * from students;
+select * from students;     
 
 -- Insert a new record with all column values
 insert into students values(13,"jack jill","ME");
