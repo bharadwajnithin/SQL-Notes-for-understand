@@ -49,3 +49,4 @@ select * from stu_info;
 DROP TABLE stu_info;
 
 ROLLBACK;
+   
