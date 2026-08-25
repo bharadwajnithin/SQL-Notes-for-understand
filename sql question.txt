@@ -77,7 +77,7 @@
 If you want 👇
 
 * I can give answers
-* I can make a model university 10-mark question
+* I can make a model university 10-mark question. 
 * I can create another table like Employee with salary examples
 * I can give tricky SQL errors practice
 
