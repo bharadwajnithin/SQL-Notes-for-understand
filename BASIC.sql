@@ -1,6 +1,40 @@
+
+
+-- Create the students table
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    branch VARCHAR(50) NOT NULL,
+    marks DECIMAL(5, 2),
+    age INT
+);
+
+
+
+-- select the database
+CREATE DATABASE IF NOT EXISTS student;
+USE student;
+# 
+INSERT INTO students (id, name, branch, marks, age) VALUES
+(1,  'Alice Johnson', 'CSE', 88.77, NULL),
+(2,  'Bob Smith',     'ECE', 77.77, 21),
+(3,  'Charlie Brown', 'CSE', 88.77, 22),
+(4,  'David Miller',  'ME',  77.77, 21),
+(5,  'Emma Wilson',   'CSE', 77.77, 22),
+(6,  'Frank Davis',   'EE',  77.77, 21),
+(7,  'Grace Taylor',  'ECE', 77.77, 22),
+(8,  'Hannah White',  'CSE', 88.77, 21),
+(9,  'Ian Clark',     'ME',  60.00, 22),
+(10, 'Julia Hall',    'EE',  77.77, 21),
+(11, 'Kevin Lewis',   'CSE', 77.77, 22),
+(12, 'Laura Scott',   'ECE', 88.77, 20),
+(13, 'jack jill',     'ME',  77.77, 20),
+(14, 'jackkk m ',     'CSE', 88.77, 20);
+
 -- Select the student database
 use student;
-
+  
+  
 -- Show all tables in the current database
 show tables;
 
