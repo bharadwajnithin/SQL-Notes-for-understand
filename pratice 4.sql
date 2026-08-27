@@ -105,6 +105,8 @@ where marks =(select max(marks) from students
 
 select avg(marks) from students ;
 
+select max(marks) from students ;
+
 select *from students 
 where marks>(select avg(marks) from students );
 
