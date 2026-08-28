@@ -1,6 +1,9 @@
+# create database 
 create database practice7;
 use practice7;
 
+
+# create a database  
 CREATE TABLE Employees (
     EmpID INT PRIMARY KEY,
     EmpName VARCHAR(50),
@@ -8,6 +11,8 @@ CREATE TABLE Employees (
     Salary DECIMAL(10,2),
     HireDate DATE
 );
+
+
 
 INSERT INTO Employees VALUES
 (101, 'Nithin', 'IT', 50000, '2023-01-15'),
