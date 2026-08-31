@@ -12,8 +12,7 @@ CREATE TABLE Employees (
     HireDate DATE
 );
 
-
-
+     INsert 
 INSERT INTO Employees VALUES
 (101, 'Nithin', 'IT', 50000, '2023-01-15'),
 (102, 'Rahul', 'HR', 45000, '2022-03-10'),
