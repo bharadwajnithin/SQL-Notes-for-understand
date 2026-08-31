@@ -6,7 +6,7 @@
 
 #create 
 CREATE TABLE students (
-    stu_id INT PRIMARY KEY,
+    stu_id INT PRIMARY KEY,   
     stu_name VARCHAR(50),
     stu_fees INT,
     stu_subject VARCHAR(50),
