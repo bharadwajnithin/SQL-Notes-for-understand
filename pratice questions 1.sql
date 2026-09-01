@@ -76,7 +76,9 @@ where student_name like 'A%';
 
 select branch,student_id as upd
 from students 
-group by branch;
+group by branch;   
+
+
 
 update students
 set marks =marks+3
