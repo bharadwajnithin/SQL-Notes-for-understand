@@ -146,6 +146,8 @@ select min(age) as minage ,max(age) as maxage
 from students ;
 
 -- Display table structure
+
+
 DESC students;
 
 
