@@ -1,5 +1,8 @@
-use prafhgj;
 
+# create a database 
+create  database  company 
+
+# create a table 
 CREATE TABLE Employees (
     emp_id INT PRIMARY KEY,
     emp_name VARCHAR(50),
@@ -8,6 +11,7 @@ CREATE TABLE Employees (
     city VARCHAR(50)
 );
 
+# insert a values 
 INSERT INTO Employees VALUES
 (1, 'Nithin', 'IT', 60000, 'Mysore'),
 (2, 'Ravi', 'HR', 40000, 'Bangalore'),
