@@ -5,6 +5,8 @@ reate database JIO
 
 use jio;
 
+# Create a table 
+
 CREATE TABLE Students (
     student_id INT PRIMARY KEY,
     name VARCHAR(50),
