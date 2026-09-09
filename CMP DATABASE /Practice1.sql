@@ -181,18 +181,64 @@ select * from orders ;
 /*. P25. Count Customers by Country
 Show how many customers belong to each country. */
 
-select country ,count(customer_id) from customers
+select country ,count(*) 
+from customers
 group by country ;
 
 select * from customers;
 
+use CMP;
+
+
+
+/* P26. Average Salary by Department
+Calculate the average salary for each department.   */
+
+select avg(salary),department_name
+from employees
+group by department_id;
+
+/*  P27. Product Count by Category
+Count products in every category.  */
+
+select count(category),category from products
+group by category;
+
+/* P28 Departments With More Than 1 Employees
+Find departments having more than five employees.   */
+
+select count(*)as totalemployees ,department_id
+from employees
+group by department_id
+having totalemployees >1;
+
+/*  P29 Categorize Employees by Salary
+Classify employees as High, Medium, or Low salary.  */
+
+
+select first_name,salary,
+CASE
+	when salary >=80000 then 'High'
+	when salary >=50000 then 'Mediam'
+	else 'lɵw'
+end as salary_level
+from employees;
 
 
 
 
+select * from employees ;
 
 
 
+
+/*. Basic Employee Department Join
+Display each employee's name and department name.*/
+
+select e.first_name,e.last_name,d.department_name
+from employees e
+join departments d
+on e.department_id=d.department_id
 
 
 
