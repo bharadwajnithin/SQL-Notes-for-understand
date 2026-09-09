@@ -232,13 +232,136 @@ select * from employees ;
 
 
 
-/*. Basic Employee Department Join
+/*. p 30 Basic Employee Department Join
 Display each employee's name and department name.*/
 
 select e.first_name,e.last_name,d.department_name
 from employees e
 join departments d
-on e.department_id=d.department_id
+on e.department_id=d.department_id;
+
+
+
+
+/*
+     P31. Customer Order List
+Display customer names along with their order IDs and order amounts.*/
+
+use CMP;
+
+select * from customers;
+
+
+select * from orders;
+
+select c.customer_name,o.order_id,o.total_amount
+from customers c
+join orders o
+on c.customer_id=o.customer_id;
+
+/*. P32. Employees With Department Names
+Show employee name, department name, and salary.*/
+
+select * from employees;
+select * from departments;
+
+select e.first_name,e.last_name,d.department_name,e.salary
+from employees e
+join departments d
+on e.department_id=d.department_id;
+
+
+/*. P33. Customers With No Orders
+Find customers who  an order is  delivered. */
+
+
+select * from customers;
+select * from orders ;
+
+select c.customer_id,c.customer_name 
+from customers c
+left join orders o
+on c.customer_id = o.customer_id
+where  status ="delivered";
+
+
+
+
+
+/*.P34. Orders With Customer Details
+Show order ID, customer name, order date, and status.  */
+
+select o.order_id,c.customer_name,o.order_date,o.status
+from customers c
+join orders o
+on c.customer_id=o.customer_id;
+
+show tables;
+
+select * from products;
+select * from orders;
+
+
+/*. Products Never Ordered. Find products that have never
+appeared in order_items. */
+
+
+
+/*p 36.Total Spending Per Customer.
+ Calculate total order value for every customer.  */
+ select 
+	c.customer_name,
+    c.customer_id,
+    sum(total_amount)as ts
+from customers c
+left join orders o
+	on c.customer_id=o.customer_id
+group by c.customer_id,c.customer_name
+order by ts;
+    
+    
+    
+
+
+
+/*. p 37 Customers Spending More Than 10000. 
+\Find customers whose total order value exceeds 10,000.*/
+
+ select 
+	c.customer_name,    
+    sum(total_amount)as ts
+from customers c
+left join orders o
+	on c.customer_id=o.customer_id
+group by c.customer_name
+having  ts >10000;
+
+
+
+/*. p 38. 38. Average Order Value by Customer
+Find the average order amount for each customer.  */
+
+SELECT
+customer_id,
+AVG(total_amount) AS average_order_value
+FROM orders
+GROUP BY customer_id;
+
+
+
+
+/*.  */
+
+
+
+
+
+
+
+
+
+
+
 
 
 
