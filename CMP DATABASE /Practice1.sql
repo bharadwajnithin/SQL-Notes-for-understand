@@ -404,10 +404,64 @@ group by o.product_id
 order by v desc  limit 5
 ;
 
-/*.  p41. */
+/*.  p41.  Employees With Their Managers
+Display each employee and their manager's name. */
+
+select * from  employees ;
 
 
-/*. */
+
+
+
+/*. P 42 mployees Earning Above Department Average
+Find employees whose salary is greater than their department's average salary. */
+
+select * from departments;
+
+
+select first_name
+from employees e
+where salary > (select avg(salary)from employees ee
+
+where ee.department_id=e.department_id);
+
+
+/*P43. Employees With Highest Salary
+Find all employees who earn the maximum salary.*/
+
+select first_name,salary 
+from employees e1
+where salary =(select max(salary) from employees e2)
+;
+
+
+
+/*.  P44. Second Highest Salary
+Find the second highest distinct employee salary.*/
+
+SELECT MAX(salary) AS second_highest_salary
+FROM employees
+WHERE salary < (
+SELECT MAX(salary)
+FROM employees
+);
+
+
+/* Employees With Same Salary
+Find salary values shared by more than one employee.*/
+
+select  * from employees ;
+
+select  salary ,count(*) as ec
+from employees 
+group by salary 
+having Count(*);
+
+
+
+
+
+
 
 
 
