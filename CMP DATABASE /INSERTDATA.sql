@@ -55,6 +55,14 @@ VALUES
 (9, 'Lisa Brown', 'lisa.brown@gmail.com', 'Sydney', 'Australia', '2023-09-09'),
 (10, 'Daniel Lee', 'daniel.lee@gmail.com', 'Singapore', 'Singapore', '2023-10-25');
 
+insert  into customers
+(customer_id, customer_name, email, city, country, signup_date)
+VALUES
+(11, 'Nithin ', 'amit.verma@gmail.com', 'Bengaluru', 'India', '2023-01-15'),
+(11, 'Nithin ', 'nithin@gmail.com', 'Bengaluru', 'India', '2023-01-15');
+
+
+
 
 INSERT INTO products
 (product_id, product_name, category, price, stock_quantity)
@@ -85,6 +93,8 @@ VALUES
 (8, 8, 7, '2024-04-12', 'Shipped', 30000.00),
 (9, 9, 2, '2024-05-05', 'Delivered', 13500.00),
 (10, 10, 7, '2024-05-20', 'Pending', 5000.00);
+
+
 
 INSERT INTO order_items
 (order_item_id, order_id, product_id, quantity, unit_price)
