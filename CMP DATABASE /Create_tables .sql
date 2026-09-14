@@ -148,4 +148,7 @@ CREATE TABLE employee_projects (
 
     FOREIGN KEY (project_id)
         REFERENCES projects(project_id)
-);
+); 
+
+
+
