@@ -1,4 +1,4 @@
-#P1. Select All Employees
+#P1. Select All Employees from employee table 
 #Retrieve all columns from the employees table.
 
 select * from employees ;
