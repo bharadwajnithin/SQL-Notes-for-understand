@@ -11,7 +11,7 @@ DROP TABLE IF EXISTS customers;
 DROP TABLE IF EXISTS departments;
 
 SET FOREIGN_KEY_CHECKS = 1;
-
+# insert into department table 
 INSERT INTO departments (department_id, department_name) VALUES
 (1, 'Engineering'),
 (2, 'Sales'),
