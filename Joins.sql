@@ -1,6 +1,6 @@
 #Create database ;
 
-reate database JIO
+create database new
 ;
 
 use jio;
