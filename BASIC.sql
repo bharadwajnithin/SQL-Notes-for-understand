@@ -1,5 +1,5 @@
 
-
+# create a database 
 -- Create the students table
 CREATE TABLE students (
     id INT AUTO_INCREMENT PRIMARY KEY,
