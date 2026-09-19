@@ -7,7 +7,7 @@ use jio;
 
 # Create a table 
 
-CREATE TABLE Students (
+CREATE TABLE Students (    
     student_id INT PRIMARY KEY,
     name VARCHAR(50),
     branch_id INT
