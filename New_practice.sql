@@ -6,7 +6,7 @@ use Company ;
 CREATE TABLE departments (
     department_id INT PRIMARY KEY,
     department_name VARCHAR(100)
-);
+);  
 
 # create a table employees 
 CREATE TABLE employees (
