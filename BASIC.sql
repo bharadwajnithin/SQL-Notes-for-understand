@@ -3,7 +3,7 @@
 -- Create the students table
 CREATE TABLE students (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
+    name VARCHAR(100) NOT NULL,   
     branch VARCHAR(50) NOT NULL,
     marks DECIMAL(5, 2),
     age INT
