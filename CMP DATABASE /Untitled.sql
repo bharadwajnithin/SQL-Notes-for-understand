@@ -1,5 +1,5 @@
 
-# 
+#  create a databse CMP 
 Create database CMP;
 use CMP;
 
