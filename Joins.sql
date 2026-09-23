@@ -1,5 +1,5 @@
 #Create database ;
-
+ 
 create database new
 ;
 
