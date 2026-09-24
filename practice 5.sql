@@ -2,7 +2,7 @@ create database practice5;
 use practice5;
 
 CREATE TABLE students (
-    student_id INT PRIMARY KEY,
+    student_id INT PRIMARY KEY,   
     name VARCHAR(50),
     branch VARCHAR(20),
     age INT,
