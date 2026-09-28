@@ -3,7 +3,7 @@
 # DROP
 # TRUNCATE 
 
-
+  
 #create 
 CREATE TABLE students (
     stu_id INT PRIMARY KEY,   
