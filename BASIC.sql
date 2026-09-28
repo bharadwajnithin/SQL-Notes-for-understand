@@ -11,6 +11,10 @@ CREATE TABLE students (
 
 
 
+
+
+
+
 -- select the database
 CREATE DATABASE IF NOT EXISTS student;
 USE student;
