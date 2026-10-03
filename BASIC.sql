@@ -39,7 +39,8 @@ INSERT INTO students (id, name, branch, marks, age) VALUES
 
 -- Select the student database
 use student;
-  
+
+-- Basic SQL queries practised 
   
 -- Show all tables in the current database
 show tables;
