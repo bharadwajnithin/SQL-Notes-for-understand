@@ -67,9 +67,6 @@ ON students.branch_id = branch.branch_id;
 
 #full joion 
 
-
-
-
 SELECT students.name, branch.branch_name
 FROM students
 LEFT JOIN branch
@@ -82,15 +79,7 @@ FROM students
 right JOIN branch
 ON students.branch_id = branch.branch_id;
 
-
-
-
-
 #FULL JOIN 
-
-
-
-
 
 select *from branch;
 select *from students;
