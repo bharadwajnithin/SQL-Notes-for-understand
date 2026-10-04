@@ -12,7 +12,7 @@ CREATE TABLE students (
     stu_subject VARCHAR(50),
     stu_age INT,
     stu_class INT
-);
+); 
 
 desc students;
 
