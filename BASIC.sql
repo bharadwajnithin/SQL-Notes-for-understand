@@ -10,17 +10,7 @@ CREATE TABLE students (
     marks DECIMAL(5, 2),
     age INT
 );
-
-
-
-
-
-
-
--- select the database
-CREATE DATABASE IF NOT EXISTS student;
-USE student;
-# 
+# insert the student data
 INSERT INTO students (id, name, branch, marks, age) VALUES
 (1,  'Alice Johnson', 'CSE', 88.77, NULL),
 (2,  'Bob Smith',     'ECE', 77.77, 21),
